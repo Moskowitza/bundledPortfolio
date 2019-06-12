@@ -1,0 +1,25 @@
+{
+  "name": "bundledportfolio",
+  "version": "1.0.0",
+  "description": "webpack babel app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./weblack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moskowitza/bundledPortfolio.git"
+  },
+  "author": "Aaron Moskowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moskowitza/bundledPortfolio/issues"
+  },
+  "homepage": "https://github.com/Moskowitza/bundledPortfolio#readme",
+  "devDependencies": {
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
